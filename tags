@@ -1,0 +1,431 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALAW	rtprecv.c	45;"	d	file:
+AUDIO_FRAME	HC-256/mscrypt.c	/^    KEY_INFO = 0xDEADBEEF, AUDIO_FRAME = 0xBEEFDEAD$/;"	e	enum:__anon1	file:
+AUDIO_FRAME	HC-256/mscrypt_mod.c	/^    KEY_INFO = 0xDEADBEEF, AUDIO_FRAME = 0xBEEFDEAD$/;"	e	enum:__anon2	file:
+AUDIO_FRAME	mscrypt.c	/^    KEY_INFO = 0xDEADBEEF, AUDIO_FRAME = 0xBEEFDEAD$/;"	e	enum:__anon3	file:
+AUDIO_FRAME	mscrypt_mod.c	/^    KEY_INFO = 0xDEADBEEF, AUDIO_FRAME = 0xBEEFDEAD$/;"	e	enum:__anon4	file:
+CC	HC-256/Makefile	/^CC := gcc$/;"	m
+CC	Makefile	/^CC := gcc$/;"	m
+DecState	HC-256/mscrypt.c	/^typedef struct DecState{$/;"	s	file:
+DecState	HC-256/mscrypt.c	/^} DecState;$/;"	t	typeref:struct:DecState	file:
+DecState	HC-256/mscrypt_mod.c	/^typedef struct DecState{$/;"	s	file:
+DecState	HC-256/mscrypt_mod.c	/^} DecState;$/;"	t	typeref:struct:DecState	file:
+DecState	mscrypt.c	/^typedef struct DecState{$/;"	s	file:
+DecState	mscrypt.c	/^} DecState;$/;"	t	typeref:struct:DecState	file:
+DecState	mscrypt_mod.c	/^typedef struct DecState{$/;"	s	file:
+DecState	mscrypt_mod.c	/^} DecState;$/;"	t	typeref:struct:DecState	file:
+EncState	HC-256/mscrypt.c	/^typedef struct EncState{$/;"	s	file:
+EncState	HC-256/mscrypt.c	/^} EncState;$/;"	t	typeref:struct:EncState	file:
+EncState	HC-256/mscrypt_mod.c	/^typedef struct EncState{$/;"	s	file:
+EncState	HC-256/mscrypt_mod.c	/^} EncState;$/;"	t	typeref:struct:EncState	file:
+EncState	mscrypt.c	/^typedef struct EncState{$/;"	s	file:
+EncState	mscrypt.c	/^} EncState;$/;"	t	typeref:struct:EncState	file:
+EncState	mscrypt_mod.c	/^typedef struct EncState{$/;"	s	file:
+EncState	mscrypt_mod.c	/^} EncState;$/;"	t	typeref:struct:EncState	file:
+FrameHeader	HC-256/mscrypt.c	/^typedef struct FrameHeader {$/;"	s	file:
+FrameHeader	HC-256/mscrypt.c	/^} FrameHeader;$/;"	t	typeref:struct:FrameHeader	file:
+FrameHeader	HC-256/mscrypt_mod.c	/^typedef struct FrameHeader {$/;"	s	file:
+FrameHeader	HC-256/mscrypt_mod.c	/^} FrameHeader;$/;"	t	typeref:struct:FrameHeader	file:
+FrameHeader	mscrypt.c	/^typedef struct FrameHeader {$/;"	s	file:
+FrameHeader	mscrypt.c	/^} FrameHeader;$/;"	t	typeref:struct:FrameHeader	file:
+FrameHeader	mscrypt_mod.c	/^typedef struct FrameHeader {$/;"	s	file:
+FrameHeader	mscrypt_mod.c	/^} FrameHeader;$/;"	t	typeref:struct:FrameHeader	file:
+FrameType	HC-256/mscrypt.c	/^} FrameType;$/;"	t	typeref:enum:__anon1	file:
+FrameType	HC-256/mscrypt_mod.c	/^} FrameType;$/;"	t	typeref:enum:__anon2	file:
+FrameType	mscrypt.c	/^} FrameType;$/;"	t	typeref:enum:__anon3	file:
+FrameType	mscrypt_mod.c	/^} FrameType;$/;"	t	typeref:enum:__anon4	file:
+IV	HC-256/mscrypt.c	/^    uint32_t *IV;$/;"	m	struct:DecState	file:
+IV	HC-256/mscrypt.c	/^    uint32_t *IV;$/;"	m	struct:EncState	file:
+IV	HC-256/mscrypt.c	/^uint32_t IV[8] = {0, 0, 0, 0, 0, 0, 0, 0};$/;"	v
+IV	HC-256/mscrypt_mod.c	/^    uint32_t *IV;$/;"	m	struct:DecState	file:
+IV	HC-256/mscrypt_mod.c	/^    uint32_t *IV;$/;"	m	struct:EncState	file:
+IV	HC-256/mscrypt_mod.c	/^uint32_t IV[8] = {0, 0, 0, 0, 0, 0, 0, 0};$/;"	v
+IV	HC-256/test_hc256.c	/^uint32_t IV[8] = {0, 0, 0, 0, 0, 0, 0, 0};$/;"	v
+IV	mscrypt.c	/^    uint32_t *IV;$/;"	m	struct:DecState	file:
+IV	mscrypt.c	/^    uint32_t *IV;$/;"	m	struct:EncState	file:
+IV	mscrypt.c	/^uint32_t IV[8] = {0, 0, 0, 0, 0, 0, 0, 0};$/;"	v
+IV	mscrypt_mod.c	/^    uint32_t *IV;$/;"	m	struct:DecState	file:
+IV	mscrypt_mod.c	/^    uint32_t *IV;$/;"	m	struct:EncState	file:
+IV	mscrypt_mod.c	/^uint32_t IV[8] = {0, 0, 0, 0, 0, 0, 0, 0};$/;"	v
+IV	test_hc256.c	/^uint32_t IV[8] = {0, 0, 0, 0, 0, 0, 0, 0};$/;"	v
+IV0	HC-256/mscrypt.c	/^    uint8_t IV0;$/;"	m	struct:KeyInfo	file:
+IV0	HC-256/mscrypt_mod.c	/^    uint32_t IV0;$/;"	m	struct:KeyInfo	file:
+IV0	mscrypt.c	/^    uint8_t IV0;$/;"	m	struct:KeyInfo	file:
+IV0	mscrypt_mod.c	/^    uint32_t IV0;$/;"	m	struct:KeyInfo	file:
+IV1	HC-256/mscrypt.c	/^    uint8_t IV1;$/;"	m	struct:KeyInfo	file:
+IV1	HC-256/mscrypt_mod.c	/^    uint32_t IV1;$/;"	m	struct:KeyInfo	file:
+IV1	mscrypt.c	/^    uint8_t IV1;$/;"	m	struct:KeyInfo	file:
+IV1	mscrypt_mod.c	/^    uint32_t IV1;$/;"	m	struct:KeyInfo	file:
+IV2	HC-256/mscrypt.c	/^    uint8_t IV2;$/;"	m	struct:KeyInfo	file:
+IV2	HC-256/mscrypt_mod.c	/^    uint32_t IV2;$/;"	m	struct:KeyInfo	file:
+IV2	mscrypt.c	/^    uint8_t IV2;$/;"	m	struct:KeyInfo	file:
+IV2	mscrypt_mod.c	/^    uint32_t IV2;$/;"	m	struct:KeyInfo	file:
+IV3	HC-256/mscrypt.c	/^    uint8_t IV3;$/;"	m	struct:KeyInfo	file:
+IV3	HC-256/mscrypt_mod.c	/^    uint32_t IV3;$/;"	m	struct:KeyInfo	file:
+IV3	mscrypt.c	/^    uint8_t IV3;$/;"	m	struct:KeyInfo	file:
+IV3	mscrypt_mod.c	/^    uint32_t IV3;$/;"	m	struct:KeyInfo	file:
+IV4	HC-256/mscrypt.c	/^    uint8_t IV4;$/;"	m	struct:KeyInfo	file:
+IV4	HC-256/mscrypt_mod.c	/^    uint32_t IV4;$/;"	m	struct:KeyInfo	file:
+IV4	mscrypt.c	/^    uint8_t IV4;$/;"	m	struct:KeyInfo	file:
+IV4	mscrypt_mod.c	/^    uint32_t IV4;$/;"	m	struct:KeyInfo	file:
+IV5	HC-256/mscrypt.c	/^    uint8_t IV5;$/;"	m	struct:KeyInfo	file:
+IV5	HC-256/mscrypt_mod.c	/^    uint32_t IV5;$/;"	m	struct:KeyInfo	file:
+IV5	mscrypt.c	/^    uint8_t IV5;$/;"	m	struct:KeyInfo	file:
+IV5	mscrypt_mod.c	/^    uint32_t IV5;$/;"	m	struct:KeyInfo	file:
+IV6	HC-256/mscrypt.c	/^    uint8_t IV6;$/;"	m	struct:KeyInfo	file:
+IV6	HC-256/mscrypt_mod.c	/^    uint32_t IV6;$/;"	m	struct:KeyInfo	file:
+IV6	mscrypt.c	/^    uint8_t IV6;$/;"	m	struct:KeyInfo	file:
+IV6	mscrypt_mod.c	/^    uint32_t IV6;$/;"	m	struct:KeyInfo	file:
+IV7	HC-256/mscrypt.c	/^    uint8_t IV7;$/;"	m	struct:KeyInfo	file:
+IV7	HC-256/mscrypt_mod.c	/^    uint32_t IV7;$/;"	m	struct:KeyInfo	file:
+IV7	mscrypt.c	/^    uint8_t IV7;$/;"	m	struct:KeyInfo	file:
+IV7	mscrypt_mod.c	/^    uint32_t IV7;$/;"	m	struct:KeyInfo	file:
+KEY_INFO	HC-256/mscrypt.c	/^    KEY_INFO = 0xDEADBEEF, AUDIO_FRAME = 0xBEEFDEAD$/;"	e	enum:__anon1	file:
+KEY_INFO	HC-256/mscrypt_mod.c	/^    KEY_INFO = 0xDEADBEEF, AUDIO_FRAME = 0xBEEFDEAD$/;"	e	enum:__anon2	file:
+KEY_INFO	mscrypt.c	/^    KEY_INFO = 0xDEADBEEF, AUDIO_FRAME = 0xBEEFDEAD$/;"	e	enum:__anon3	file:
+KEY_INFO	mscrypt_mod.c	/^    KEY_INFO = 0xDEADBEEF, AUDIO_FRAME = 0xBEEFDEAD$/;"	e	enum:__anon4	file:
+Key	HC-256/mscrypt.c	/^    uint32_t *Key;$/;"	m	struct:DecState	file:
+Key	HC-256/mscrypt.c	/^    uint32_t *Key;$/;"	m	struct:EncState	file:
+Key	HC-256/mscrypt.c	/^uint32_t Key[8] = {0, 0, 0, 0, 0, 0, 0, 0};$/;"	v
+Key	HC-256/mscrypt_mod.c	/^    uint32_t *Key;$/;"	m	struct:DecState	file:
+Key	HC-256/mscrypt_mod.c	/^    uint32_t *Key;$/;"	m	struct:EncState	file:
+Key	HC-256/mscrypt_mod.c	/^uint32_t Key[8] = {0, 0, 0, 0, 0, 0, 0, 0};$/;"	v
+Key	HC-256/test_hc256.c	/^uint32_t Key[8] = {0, 0, 0, 0, 0, 0, 0, 0};$/;"	v
+Key	mscrypt.c	/^    uint32_t *Key;$/;"	m	struct:DecState	file:
+Key	mscrypt.c	/^    uint32_t *Key;$/;"	m	struct:EncState	file:
+Key	mscrypt.c	/^uint32_t Key[8] = {0, 0, 0, 0, 0, 0, 0, 0};$/;"	v
+Key	mscrypt_mod.c	/^    uint32_t *Key;$/;"	m	struct:DecState	file:
+Key	mscrypt_mod.c	/^    uint32_t *Key;$/;"	m	struct:EncState	file:
+Key	mscrypt_mod.c	/^uint32_t Key[8] = {0, 0, 0, 0, 0, 0, 0, 0};$/;"	v
+Key	test_hc256.c	/^uint32_t Key[8] = {0, 0, 0, 0, 0, 0, 0, 0};$/;"	v
+KeyInfo	HC-256/mscrypt.c	/^typedef struct KeyInfo {$/;"	s	file:
+KeyInfo	HC-256/mscrypt.c	/^} KeyInfo;$/;"	t	typeref:struct:KeyInfo	file:
+KeyInfo	HC-256/mscrypt_mod.c	/^typedef struct KeyInfo {$/;"	s	file:
+KeyInfo	HC-256/mscrypt_mod.c	/^} KeyInfo;$/;"	t	typeref:struct:KeyInfo	file:
+KeyInfo	mscrypt.c	/^typedef struct KeyInfo {$/;"	s	file:
+KeyInfo	mscrypt.c	/^} KeyInfo;$/;"	t	typeref:struct:KeyInfo	file:
+KeyInfo	mscrypt_mod.c	/^typedef struct KeyInfo {$/;"	s	file:
+KeyInfo	mscrypt_mod.c	/^} KeyInfo;$/;"	t	typeref:struct:KeyInfo	file:
+KeyItem	HC-256/mscrypt.c	/^typedef struct KeyItem {$/;"	s	file:
+KeyItem	HC-256/mscrypt.c	/^} KeyItem;$/;"	t	typeref:struct:KeyItem	file:
+KeyItem	mscrypt.c	/^typedef struct KeyItem {$/;"	s	file:
+KeyItem	mscrypt.c	/^} KeyItem;$/;"	t	typeref:struct:KeyItem	file:
+LIB	HC-256/Makefile	/^LIB := \/usr\/lib\/libmediastreamer.so \/usr\/lib\/libortp.so$/;"	m
+LIB	Makefile	/^LIB := \/home\/rudy\/myprogram\/lib\/libmediastreamer.so \/home\/rudy\/myprogram\/lib\/libortp.so$/;"	m
+MAX_RTP_SIZE	recv.c	14;"	d	file:
+MAX_RTP_SIZE	send.c	16;"	d	file:
+MAX_RTP_SIZE	sendrecv.c	16;"	d	file:
+MULAW	rtprecv.c	44;"	d	file:
+OPT	HC-256/Makefile	/^OPT :=$/;"	m
+OPT	Makefile	/^OPT :=$/;"	m
+P	HC-256/hc256.h	/^    uint32_t *P;$/;"	m	struct:__hc256_t
+P	hc256.h	/^    uint32_t *P;$/;"	m	struct:__hc256_t
+POPT	HC-256/Makefile	/^POPT := --shared -fPIC -std=c99$/;"	m
+POPT	Makefile	/^POPT := --shared -fPIC -std=c99$/;"	m
+Q	HC-256/hc256.h	/^    uint32_t *Q;$/;"	m	struct:__hc256_t
+Q	hc256.h	/^    uint32_t *Q;$/;"	m	struct:__hc256_t
+W	HC-256/hc256.h	/^    uint32_t *W;$/;"	m	struct:__hc256_t
+W	hc256.h	/^    uint32_t *W;$/;"	m	struct:__hc256_t
+__hc256_t	HC-256/hc256.h	/^struct __hc256_t {$/;"	s
+__hc256_t	hc256.h	/^struct __hc256_t {$/;"	s
+_osip_list_set_empty	sal_eXosip2.c	/^void _osip_list_set_empty(osip_list_t *l, void (*freefunc)(void*)){$/;"	f
+_osip_trace_func	sal_eXosip2.c	/^static void _osip_trace_func(char *fi, int li, osip_trace_level_t level, char *chfr, va_list ap){$/;"	f	file:
+_sdp_message_get_a_ptime	sal_eXosip2_sdp.c	/^static int _sdp_message_get_a_ptime(sdp_message_t *sdp, int mline){$/;"	f	file:
+_sdp_message_get_mline_dir	sal_eXosip2_sdp.c	/^static int _sdp_message_get_mline_dir(sdp_message_t *sdp, int mline){$/;"	f	file:
+add_line	sal_eXosip2_sdp.c	/^static void add_line(sdp_message_t *msg, int lineno, const SalStreamDescription *desc){$/;"	f	file:
+add_payload	sal_eXosip2_sdp.c	/^static void add_payload(sdp_message_t *msg, int line, const PayloadType *pt, bool_t strip_well_known_rtpmaps)$/;"	f	file:
+add_relay_info	sal_eXosip2_sdp.c	/^static void add_relay_info(sdp_message_t *sdp, int mline, const char *relay, const char *relay_session_id){$/;"	f	file:
+alloc_hc256	HC-256/hc256.c	/^hc256_t *alloc_hc256()$/;"	f
+alloc_hc256	hc256.c	/^hc256_t *alloc_hc256()$/;"	f
+auth_context	auth.c	/^auth_ctx_t *auth_context = NULL;$/;"	v
+auth_ctx_find_private_user	auth.c	/^auth_ctx_find_private_user (osip_proxy_authorization_t * p_auth)$/;"	f	file:
+auth_ctx_free	auth.c	/^auth_ctx_free ()$/;"	f
+auth_ctx_init	auth.c	/^auth_ctx_init ()$/;"	f
+auth_validate_credential_for_user	auth.c	/^auth_validate_credential_for_user (ppl_uinfo_t * user,$/;"	f	file:
+authentication_ok	sal_eXosip2.c	/^static void authentication_ok(Sal *sal, eXosip_event_t *ev){$/;"	f	file:
+c	HC-256/hc256.h	/^    unsigned int c;$/;"	m	struct:__hc256_t
+c	hc256.h	/^    unsigned int c;$/;"	m	struct:__hc256_t
+call_accepted	sal_eXosip2.c	/^static void call_accepted(Sal *sal, eXosip_event_t *ev){$/;"	f	file:
+call_failure	sal_eXosip2.c	/^static bool_t call_failure(Sal *sal, eXosip_event_t *ev){$/;"	f	file:
+call_message_new	sal_eXosip2.c	/^static void call_message_new(Sal *sal, eXosip_event_t *ev){$/;"	f	file:
+call_proceeding	sal_eXosip2.c	/^static int call_proceeding(Sal *sal, eXosip_event_t *ev){$/;"	f	file:
+call_released	sal_eXosip2.c	/^static void call_released(Sal *sal, eXosip_event_t *ev){$/;"	f	file:
+call_ringing	sal_eXosip2.c	/^static void call_ringing(Sal *sal, eXosip_event_t *ev){$/;"	f	file:
+call_terminated	sal_eXosip2.c	/^static void call_terminated(Sal *sal, eXosip_event_t *ev){$/;"	f	file:
+cb_auth_add_credentials	auth.c	/^cb_auth_add_credentials (psp_request_t * psp_req, osip_message_t * response) \/* HOOK MIDDLE *\/$/;"	f
+cb_auth_validate_credentials	auth.c	/^cb_auth_validate_credentials (psp_request_t * psp_req)$/;"	f
+comes_from_local_if	sal_eXosip2.c	/^static bool_t comes_from_local_if(osip_message_t *msg){$/;"	f	file:
+cond	rtprecv.c	/^int cond=1;$/;"	v
+create_duplex_rtpsession	recv.c	/^RtpSession *create_duplex_rtpsession(int locport) {$/;"	f
+create_duplex_rtpsession	send.c	/^RtpSession *create_duplex_rtpsession(int locport){$/;"	f
+create_duplex_rtpsession	sendrecv.c	/^RtpSession *create_duplex_rtpsession(int locport) {$/;"	f
+create_generic_sdp	sal_eXosip2_sdp.c	/^static sdp_message_t *create_generic_sdp(const SalMediaDescription *desc)$/;"	f	file:
+crypto	recv.c	/^    MSFilter *crypto;$/;"	m	struct:mstream	file:
+crypto	send.c	/^    MSFilter *crypto;$/;"	m	struct:mstream	file:
+dec	HC-256/mscrypt_mod.c	/^    void *dec;$/;"	m	struct:DecState	file:
+dec	mscrypt_mod.c	/^    void *dec;$/;"	m	struct:DecState	file:
+dec_add_attr	HC-256/mscrypt.c	/^static int dec_add_attr(MSFilter *f, void *arg)$/;"	f	file:
+dec_add_attr	mscrypt.c	/^static int dec_add_attr(MSFilter *f, void *arg)$/;"	f	file:
+dec_methods	HC-256/mscrypt.c	/^static MSFilterMethod dec_methods[]={$/;"	v	file:
+dec_methods	mscrypt.c	/^static MSFilterMethod dec_methods[]={$/;"	v	file:
+decoder	recv.c	/^    MSFilter *decoder;$/;"	m	struct:mstream	file:
+decoder	sendrecv.c	/^    MSFilter *decoder;$/;"	m	struct:mstream	file:
+enc_add_attr	HC-256/mscrypt.c	/^static int enc_add_attr(MSFilter *f, void *arg)$/;"	f	file:
+enc_add_attr	mscrypt.c	/^static int enc_add_attr(MSFilter *f, void *arg)$/;"	f	file:
+enc_methods	HC-256/mscrypt.c	/^static MSFilterMethod enc_methods[]={$/;"	v	file:
+enc_methods	mscrypt.c	/^static MSFilterMethod enc_methods[]={$/;"	v	file:
+encoder	send.c	/^    MSFilter *encoder;$/;"	m	struct:mstream	file:
+encoder	sendrecv.c	/^    MSFilter *encoder;$/;"	m	struct:mstream	file:
+encryption	hc256.c	/^void encryption(hc256_t *hc256, unsigned char * buff, int payload_len, unsigned int start)$/;"	f
+extract_received_rport	sal_eXosip2.c	/^static int extract_received_rport(osip_message_t *msg, const char **received, int *rportval){$/;"	f	file:
+f1	HC-256/hc256.c	/^static inline uint32_t f1(uint32_t x)$/;"	f	file:
+f1	hc256.c	/^static inline uint32_t f1(uint32_t x)$/;"	f	file:
+f2	HC-256/hc256.c	/^static inline uint32_t f2(uint32_t x)$/;"	f	file:
+f2	hc256.c	/^static inline uint32_t f2(uint32_t x)$/;"	f	file:
+fill_options_answer	sal_eXosip2.c	/^static void fill_options_answer(osip_message_t *options){$/;"	f	file:
+find_op	sal_eXosip2.c	/^static SalOp *find_op(Sal *sal, eXosip_event_t *ev){$/;"	f	file:
+free_hc256	HC-256/hc256.c	/^void free_hc256(hc256_t * hc256)$/;"	f
+free_hc256	hc256.c	/^void free_hc256(hc256_t * hc256)$/;"	f
+g1	HC-256/hc256.c	/^static inline uint32_t g1(hc256_t *hc256, uint32_t x, uint32_t y)$/;"	f	file:
+g1	hc256.c	/^static inline uint32_t g1(hc256_t *hc256, uint32_t x, uint32_t y)$/;"	f	file:
+g2	HC-256/hc256.c	/^static inline uint32_t g2(hc256_t *hc256, uint32_t x, uint32_t y)$/;"	f	file:
+g2	hc256.c	/^static inline uint32_t g2(hc256_t *hc256, uint32_t x, uint32_t y)$/;"	f	file:
+get_auth_data	sal_eXosip2.c	/^static int get_auth_data(eXosip_event_t *ev, const char **realm, const char **username){$/;"	f	file:
+get_auth_data_from_request	sal_eXosip2.c	/^static int get_auth_data_from_request(osip_message_t *msg, const char **realm, const char **username){$/;"	f	file:
+get_auth_data_from_response	sal_eXosip2.c	/^static int get_auth_data_from_response(osip_message_t *resp, const char **realm, const char **username){$/;"	f	file:
+h1	HC-256/hc256.c	/^static inline uint32_t h1(hc256_t *hc256, uint32_t x)$/;"	f	file:
+h1	hc256.c	/^static inline uint32_t h1(hc256_t *hc256, uint32_t x)$/;"	f	file:
+h2	HC-256/hc256.c	/^static inline uint32_t h2(hc256_t *hc256, uint8_t x)$/;"	f	file:
+h2	hc256.c	/^static inline uint32_t h2(hc256_t *hc256, uint8_t x)$/;"	f	file:
+handle_ack	sal_eXosip2.c	/^static void handle_ack(Sal *sal,  eXosip_event_t *ev){$/;"	f	file:
+handle_reinvite	sal_eXosip2.c	/^static void handle_reinvite(Sal *sal,  eXosip_event_t *ev){$/;"	f	file:
+hc256	HC-256/mscrypt.c	/^    hc256_t *hc256;$/;"	m	struct:DecState	file:
+hc256	HC-256/mscrypt.c	/^    hc256_t *hc256;$/;"	m	struct:EncState	file:
+hc256	HC-256/mscrypt_mod.c	/^    hc256_t *hc256;$/;"	m	struct:DecState	file:
+hc256	HC-256/mscrypt_mod.c	/^    hc256_t *hc256;$/;"	m	struct:EncState	file:
+hc256	mscrypt.c	/^    hc256_t *hc256;$/;"	m	struct:DecState	file:
+hc256	mscrypt.c	/^    hc256_t *hc256;$/;"	m	struct:EncState	file:
+hc256	mscrypt_mod.c	/^    hc256_t *hc256;$/;"	m	struct:DecState	file:
+hc256	mscrypt_mod.c	/^    hc256_t *hc256;$/;"	m	struct:EncState	file:
+hc256_t	HC-256/hc256.h	/^typedef struct __hc256_t hc256_t;$/;"	t	typeref:struct:__hc256_t
+hc256_t	hc256.h	/^typedef struct __hc256_t hc256_t;$/;"	t	typeref:struct:__hc256_t
+help	rtprecv.c	/^static char *help="usage: rtprecv  filename loc_port [--format format] [--soundcard] [--noadapt] [--with-jitter <milliseconds>]\\n";$/;"	v	file:
+help	rtpsend.c	/^static const char *help="usage: rtpsend	filename dest_ip4addr dest_port [ --with-clockslide <value> ] [ --with-jitter <milliseconds>]\\n";$/;"	v	file:
+inc_new_call	sal_eXosip2.c	/^static void inc_new_call(Sal *sal, eXosip_event_t *ev){$/;"	f	file:
+inc_update	sal_eXosip2.c	/^static void inc_update(Sal *sal, eXosip_event_t *ev){$/;"	f	file:
+init	HC-256/hc256.c	/^void init(hc256_t *hc256, uint32_t *K, uint32_t *IV)$/;"	f
+init	hc256.c	/^void init(hc256_t *hc256, uint32_t *K, uint32_t *IV)$/;"	f
+inited	HC-256/mscrypt.c	/^    uint8_t inited;$/;"	m	struct:DecState	file:
+inited	HC-256/mscrypt_mod.c	/^    uint8_t inited;$/;"	m	struct:DecState	file:
+inited	mscrypt.c	/^    uint8_t inited;$/;"	m	struct:DecState	file:
+inited	mscrypt_mod.c	/^    uint8_t inited;$/;"	m	struct:DecState	file:
+int_2char	sal_eXosip2_sdp.c	/^static char * int_2char(int a){$/;"	f	file:
+is_known_rtpmap	sal_eXosip2_sdp.c	/^static bool_t is_known_rtpmap(const PayloadType *pt){$/;"	f	file:
+key	HC-256/mscrypt.c	/^    uint32_t key;$/;"	m	struct:EncState	file:
+key	HC-256/mscrypt.c	/^    uint8_t key;$/;"	m	struct:KeyItem	file:
+key	HC-256/mscrypt_mod.c	/^    uint32_t key;$/;"	m	struct:EncState	file:
+key	mscrypt.c	/^    uint32_t key;$/;"	m	struct:EncState	file:
+key	mscrypt.c	/^    uint8_t key;$/;"	m	struct:KeyItem	file:
+key	mscrypt_mod.c	/^    uint32_t key;$/;"	m	struct:EncState	file:
+keygen	HC-256/hc256.c	/^uint32_t keygen(hc256_t *hc256)$/;"	f
+keywordcmp	sal_eXosip2_sdp.c	25;"	d	file:
+libmscrypt_init	HC-256/mscrypt.c	/^void libmscrypt_init(){$/;"	f
+libmscrypt_init	HC-256/mscrypt_mod.c	/^void libmscrypt_init(){$/;"	f
+libmscrypt_init	mscrypt.c	/^void libmscrypt_init(){$/;"	f
+libmscrypt_init	mscrypt_mod.c	/^void libmscrypt_init(){$/;"	f
+main	HC-256/test_hc256.c	/^int main() {$/;"	f
+main	recv.c	/^int main(int argc, char **argv)$/;"	f
+main	rtprecv.c	/^int main(int argc, char*argv[])$/;"	f
+main	rtpsend.c	/^int main(int argc, char *argv[])$/;"	f
+main	send.c	/^int main(int argc, char **argv)$/;"	f
+main	sendrecv.c	/^int main(int argc, char **argv)$/;"	f
+main	test_hc256.c	/^int main() {$/;"	f
+main	ua_client.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	ua_server.cpp	/^int main()$/;"	f
+make_relay_session_id	sal_eXosip2_sdp.c	/^static char *make_relay_session_id(const char *username, const char *relay){$/;"	f	file:
+masquerade_via	sal_eXosip2.c	/^static void masquerade_via(osip_message_t *msg, const char *ip, const char *port){$/;"	f	file:
+media_description_to_sdp	sal_eXosip2_sdp.c	/^sdp_message_t *media_description_to_sdp(const SalMediaDescription *desc){$/;"	f
+msdecrypt_filter	HC-256/mscrypt.c	/^static MSFilterDesc msdecrypt_filter={$/;"	v	file:
+msdecrypt_filter	HC-256/mscrypt_mod.c	/^static MSFilterDesc msdecrypt_filter={$/;"	v	file:
+msdecrypt_filter	mscrypt.c	/^static MSFilterDesc msdecrypt_filter={$/;"	v	file:
+msdecrypt_filter	mscrypt_mod.c	/^static MSFilterDesc msdecrypt_filter={$/;"	v	file:
+msdecrypt_init	HC-256/mscrypt.c	/^static void msdecrypt_init(MSFilter *f)$/;"	f	file:
+msdecrypt_init	HC-256/mscrypt_mod.c	/^static void msdecrypt_init(MSFilter *f)$/;"	f	file:
+msdecrypt_init	mscrypt.c	/^static void msdecrypt_init(MSFilter *f)$/;"	f	file:
+msdecrypt_init	mscrypt_mod.c	/^static void msdecrypt_init(MSFilter *f)$/;"	f	file:
+msdecrypt_postprocess	HC-256/mscrypt.c	/^static void msdecrypt_postprocess(MSFilter *f)$/;"	f	file:
+msdecrypt_postprocess	HC-256/mscrypt_mod.c	/^static void msdecrypt_postprocess(MSFilter *f)$/;"	f	file:
+msdecrypt_postprocess	mscrypt.c	/^static void msdecrypt_postprocess(MSFilter *f)$/;"	f	file:
+msdecrypt_postprocess	mscrypt_mod.c	/^static void msdecrypt_postprocess(MSFilter *f)$/;"	f	file:
+msdecrypt_preprocess	HC-256/mscrypt.c	/^static void msdecrypt_preprocess(MSFilter *f)$/;"	f	file:
+msdecrypt_preprocess	HC-256/mscrypt_mod.c	/^static void msdecrypt_preprocess(MSFilter *f)$/;"	f	file:
+msdecrypt_preprocess	mscrypt.c	/^static void msdecrypt_preprocess(MSFilter *f)$/;"	f	file:
+msdecrypt_preprocess	mscrypt_mod.c	/^static void msdecrypt_preprocess(MSFilter *f)$/;"	f	file:
+msdecrypt_process	HC-256/mscrypt.c	/^static void msdecrypt_process(MSFilter *f)$/;"	f	file:
+msdecrypt_process	HC-256/mscrypt_mod.c	/^static void msdecrypt_process(MSFilter *f)$/;"	f	file:
+msdecrypt_process	mscrypt.c	/^static void msdecrypt_process(MSFilter *f)$/;"	f	file:
+msdecrypt_process	mscrypt_mod.c	/^static void msdecrypt_process(MSFilter *f)$/;"	f	file:
+msdecrypt_uninit	HC-256/mscrypt.c	/^static void msdecrypt_uninit(MSFilter *f)$/;"	f	file:
+msdecrypt_uninit	HC-256/mscrypt_mod.c	/^static void msdecrypt_uninit(MSFilter *f)$/;"	f	file:
+msdecrypt_uninit	mscrypt.c	/^static void msdecrypt_uninit(MSFilter *f)$/;"	f	file:
+msdecrypt_uninit	mscrypt_mod.c	/^static void msdecrypt_uninit(MSFilter *f)$/;"	f	file:
+msencrypt_filter	HC-256/mscrypt.c	/^static MSFilterDesc msencrypt_filter={$/;"	v	file:
+msencrypt_filter	HC-256/mscrypt_mod.c	/^static MSFilterDesc msencrypt_filter={$/;"	v	file:
+msencrypt_filter	mscrypt.c	/^static MSFilterDesc msencrypt_filter={$/;"	v	file:
+msencrypt_filter	mscrypt_mod.c	/^static MSFilterDesc msencrypt_filter={$/;"	v	file:
+msencrypt_init	HC-256/mscrypt.c	/^static void msencrypt_init(MSFilter *f)$/;"	f	file:
+msencrypt_init	HC-256/mscrypt_mod.c	/^static void msencrypt_init(MSFilter *f)$/;"	f	file:
+msencrypt_init	mscrypt.c	/^static void msencrypt_init(MSFilter *f)$/;"	f	file:
+msencrypt_init	mscrypt_mod.c	/^static void msencrypt_init(MSFilter *f)$/;"	f	file:
+msencrypt_postprocess	HC-256/mscrypt.c	/^static void msencrypt_postprocess(MSFilter *f)$/;"	f	file:
+msencrypt_postprocess	HC-256/mscrypt_mod.c	/^static void msencrypt_postprocess(MSFilter *f)$/;"	f	file:
+msencrypt_postprocess	mscrypt.c	/^static void msencrypt_postprocess(MSFilter *f)$/;"	f	file:
+msencrypt_postprocess	mscrypt_mod.c	/^static void msencrypt_postprocess(MSFilter *f)$/;"	f	file:
+msencrypt_preprocess	HC-256/mscrypt.c	/^static void msencrypt_preprocess(MSFilter *f)$/;"	f	file:
+msencrypt_preprocess	HC-256/mscrypt_mod.c	/^static void msencrypt_preprocess(MSFilter *f)$/;"	f	file:
+msencrypt_preprocess	mscrypt.c	/^static void msencrypt_preprocess(MSFilter *f)$/;"	f	file:
+msencrypt_preprocess	mscrypt_mod.c	/^static void msencrypt_preprocess(MSFilter *f)$/;"	f	file:
+msencrypt_process	HC-256/mscrypt.c	/^static void msencrypt_process(MSFilter *f)$/;"	f	file:
+msencrypt_process	HC-256/mscrypt_mod.c	/^static void msencrypt_process(MSFilter *f)$/;"	f	file:
+msencrypt_process	mscrypt.c	/^static void msencrypt_process(MSFilter *f)$/;"	f	file:
+msencrypt_process	mscrypt_mod.c	/^static void msencrypt_process(MSFilter *f)$/;"	f	file:
+msencrypt_uninit	HC-256/mscrypt.c	/^static void msencrypt_uninit(MSFilter *f)$/;"	f	file:
+msencrypt_uninit	HC-256/mscrypt_mod.c	/^static void msencrypt_uninit(MSFilter *f)$/;"	f	file:
+msencrypt_uninit	mscrypt.c	/^static void msencrypt_uninit(MSFilter *f)$/;"	f	file:
+msencrypt_uninit	mscrypt_mod.c	/^static void msencrypt_uninit(MSFilter *f)$/;"	f	file:
+mstream	recv.c	/^struct mstream {$/;"	s	file:
+mstream	send.c	/^struct mstream {$/;"	s	file:
+mstream	sendrecv.c	/^struct mstream {$/;"	s	file:
+null_if_empty	sal_eXosip2.c	1954;"	d	file:
+other_request	sal_eXosip2.c	/^static void other_request(Sal *sal, eXosip_event_t *ev){$/;"	f	file:
+other_request_reply	sal_eXosip2.c	/^static void other_request_reply(Sal *sal,eXosip_event_t *ev){$/;"	f	file:
+payload_type_fill_from_rtpmap	sal_eXosip2_sdp.c	/^static int payload_type_fill_from_rtpmap(PayloadType *pt, const char *rtpmap){$/;"	f	file:
+pop_auth_from_exosip	sal_eXosip2.c	/^static void pop_auth_from_exosip() {$/;"	f	file:
+process_authentication	sal_eXosip2.c	/^static bool_t process_authentication(Sal *sal, eXosip_event_t *ev){$/;"	f	file:
+process_dtmf_relay	sal_eXosip2.c	/^static void process_dtmf_relay(Sal *sal, eXosip_event_t *ev){$/;"	f	file:
+process_event	sal_eXosip2.c	/^static bool_t process_event(Sal *sal, eXosip_event_t *ev){$/;"	f	file:
+process_media_control_xml	sal_eXosip2.c	/^static void process_media_control_xml(Sal *sal, eXosip_event_t *ev){$/;"	f	file:
+process_refer	sal_eXosip2.c	/^static void process_refer(Sal *sal, SalOp *op, eXosip_event_t *ev){$/;"	f	file:
+push_auth_to_exosip	sal_eXosip2.c	/^static void push_auth_to_exosip(const SalAuthInfo *info){$/;"	f	file:
+register_again_with_updated_contact	sal_eXosip2.c	/^static bool_t register_again_with_updated_contact(SalOp *op, osip_message_t *orig_request, osip_message_t *last_answer){$/;"	f	file:
+register_set_contact	sal_eXosip2.c	/^static void register_set_contact(osip_message_t *msg, const char *contact){$/;"	f	file:
+registration_failure	sal_eXosip2.c	/^static bool_t registration_failure(Sal *sal, eXosip_event_t *ev){$/;"	f	file:
+registration_success	sal_eXosip2.c	/^static void registration_success(Sal *sal, eXosip_event_t *ev){$/;"	f	file:
+right_rotation	HC-256/hc256.c	/^static inline uint32_t right_rotation(uint32_t x, uint32_t n)$/;"	f	file:
+right_rotation	hc256.c	/^static inline uint32_t right_rotation(uint32_t x, uint32_t n)$/;"	f	file:
+round	HC-256/mscrypt.c	/^    uint32_t round;$/;"	m	struct:EncState	file:
+round	HC-256/mscrypt_mod.c	/^    uint32_t round;$/;"	m	struct:EncState	file:
+round	mscrypt.c	/^    uint32_t round;$/;"	m	struct:EncState	file:
+round	mscrypt_mod.c	/^    uint32_t round;$/;"	m	struct:EncState	file:
+rtprecv	recv.c	/^    MSFilter *rtprecv;$/;"	m	struct:mstream	file:
+rtprecv	sendrecv.c	/^    MSFilter *rtprecv;$/;"	m	struct:mstream	file:
+rtpsend	send.c	/^    MSFilter *rtpsend;$/;"	m	struct:mstream	file:
+rtpsend	sendrecv.c	/^    MSFilter *rtpsend;$/;"	m	struct:mstream	file:
+runcond	rtpsend.c	/^int runcond=1;$/;"	v
+sal_add_call	sal_eXosip2.c	/^static void sal_add_call(Sal *sal, SalOp *op){$/;"	f	file:
+sal_add_other	sal_eXosip2.c	/^void sal_add_other(Sal *sal, SalOp *op, osip_message_t *request){$/;"	f
+sal_add_pending_auth	sal_eXosip2.c	/^static void sal_add_pending_auth(Sal *sal, SalOp *op){$/;"	f	file:
+sal_add_register	sal_eXosip2.c	/^static void sal_add_register(Sal *sal, SalOp *op){$/;"	f	file:
+sal_address_add_param	sal_eXosip2.c	/^void sal_address_add_param(SalAddress *u,const char* name,const char* value) {$/;"	f
+sal_address_as_string	sal_eXosip2.c	/^char *sal_address_as_string(const SalAddress *u){$/;"	f
+sal_address_as_string_uri_only	sal_eXosip2.c	/^char *sal_address_as_string_uri_only(const SalAddress *u){$/;"	f
+sal_address_clean	sal_eXosip2.c	/^void sal_address_clean(SalAddress *addr){$/;"	f
+sal_address_clone	sal_eXosip2.c	/^SalAddress * sal_address_clone(const SalAddress *addr){$/;"	f
+sal_address_destroy	sal_eXosip2.c	/^void sal_address_destroy(SalAddress *u){$/;"	f
+sal_address_get_display_name	sal_eXosip2.c	/^const char *sal_address_get_display_name(const SalAddress* addr){$/;"	f
+sal_address_get_domain	sal_eXosip2.c	/^const char *sal_address_get_domain(const SalAddress *addr){$/;"	f
+sal_address_get_port	sal_eXosip2.c	/^const char * sal_address_get_port(const SalAddress *addr) {$/;"	f
+sal_address_get_port_int	sal_eXosip2.c	/^int sal_address_get_port_int(const SalAddress *uri) {$/;"	f
+sal_address_get_scheme	sal_eXosip2.c	/^const char *sal_address_get_scheme(const SalAddress *addr){$/;"	f
+sal_address_get_username	sal_eXosip2.c	/^const char *sal_address_get_username(const SalAddress *addr){$/;"	f
+sal_address_new	sal_eXosip2.c	/^SalAddress * sal_address_new(const char *uri){$/;"	f
+sal_address_set_display_name	sal_eXosip2.c	/^void sal_address_set_display_name(SalAddress *addr, const char *display_name){$/;"	f
+sal_address_set_domain	sal_eXosip2.c	/^void sal_address_set_domain(SalAddress *addr, const char *host){$/;"	f
+sal_address_set_port	sal_eXosip2.c	/^void sal_address_set_port(SalAddress *addr, const char *port){$/;"	f
+sal_address_set_port_int	sal_eXosip2.c	/^void sal_address_set_port_int(SalAddress *uri, int port){$/;"	f
+sal_address_set_username	sal_eXosip2.c	/^void sal_address_set_username(SalAddress *addr, const char *username){$/;"	f
+sal_call	sal_eXosip2.c	/^int sal_call(SalOp *h, const char *from, const char *to){$/;"	f
+sal_call_accept	sal_eXosip2.c	/^int sal_call_accept(SalOp * h){$/;"	f
+sal_call_accept_refer	sal_eXosip2.c	/^int sal_call_accept_refer(SalOp *op){$/;"	f
+sal_call_autoanswer_asked	sal_eXosip2.c	/^bool_t sal_call_autoanswer_asked(SalOp *op)$/;"	f
+sal_call_decline	sal_eXosip2.c	/^int sal_call_decline(SalOp *h, SalReason reason, const char *redirect){$/;"	f
+sal_call_get_final_media_description	sal_eXosip2.c	/^SalMediaDescription * sal_call_get_final_media_description(SalOp *h){$/;"	f
+sal_call_get_replaces	sal_eXosip2.c	/^SalOp *sal_call_get_replaces(SalOp *h){$/;"	f
+sal_call_notify_ringing	sal_eXosip2.c	/^int sal_call_notify_ringing(SalOp *h, bool_t early_media){$/;"	f
+sal_call_refer	sal_eXosip2.c	/^int sal_call_refer(SalOp *h, const char *refer_to){$/;"	f
+sal_call_refer_with_replaces	sal_eXosip2.c	/^int sal_call_refer_with_replaces(SalOp *h, SalOp *other_call_h){$/;"	f
+sal_call_send_dtmf	sal_eXosip2.c	/^int sal_call_send_dtmf(SalOp *h, char dtmf){$/;"	f
+sal_call_send_vfu_request	sal_eXosip2.c	/^void sal_call_send_vfu_request(SalOp *h){$/;"	f
+sal_call_set_local_media_description	sal_eXosip2.c	/^int sal_call_set_local_media_description(SalOp *h, SalMediaDescription *desc){$/;"	f
+sal_call_set_referer	sal_eXosip2.c	/^int sal_call_set_referer(SalOp *h, SalOp *refered_call){$/;"	f
+sal_call_terminate	sal_eXosip2.c	/^int sal_call_terminate(SalOp *h){$/;"	f
+sal_call_update	sal_eXosip2.c	/^int sal_call_update(SalOp *h, const char *subject){$/;"	f
+sal_exosip_fix_route	sal_eXosip2.c	/^void sal_exosip_fix_route(SalOp *op){$/;"	f
+sal_find_call	sal_eXosip2.c	/^static SalOp * sal_find_call(Sal *sal, int cid){$/;"	f	file:
+sal_find_other	sal_eXosip2.c	/^static SalOp * sal_find_other(Sal *sal, osip_message_t *response){$/;"	f	file:
+sal_find_register	sal_eXosip2.c	/^static SalOp * sal_find_register(Sal *sal, int rid){$/;"	f	file:
+sal_get_default_local_ip	sal_eXosip2.c	/^void sal_get_default_local_ip(Sal *sal, int address_family,char *ip, size_t iplen){$/;"	f
+sal_get_keepalive_period	sal_eXosip2.c	/^unsigned int sal_get_keepalive_period(Sal *ctx) {$/;"	f
+sal_get_pending_auths	sal_eXosip2.c	/^MSList *sal_get_pending_auths(Sal *sal){$/;"	f
+sal_get_socket	sal_eXosip2.c	/^ortp_socket_t sal_get_socket(Sal *ctx){$/;"	f
+sal_get_user_pointer	sal_eXosip2.c	/^void *sal_get_user_pointer(const Sal *sal){$/;"	f
+sal_init	sal_eXosip2.c	/^Sal * sal_init(){$/;"	f
+sal_iterate	sal_eXosip2.c	/^int sal_iterate(Sal *sal){$/;"	f
+sal_listen_port	sal_eXosip2.c	/^int sal_listen_port(Sal *ctx, const char *addr, int port, SalTransport tr, int is_secure){$/;"	f
+sal_op_authenticate	sal_eXosip2.c	/^void sal_op_authenticate(SalOp *h, const SalAuthInfo *info){$/;"	f
+sal_op_cancel_authentication	sal_eXosip2.c	/^void sal_op_cancel_authentication(SalOp *h) {$/;"	f
+sal_op_get_auth_requested	sal_eXosip2.c	/^int sal_op_get_auth_requested(SalOp *op, const char **realm, const char **username){$/;"	f
+sal_op_new	sal_eXosip2.c	/^SalOp * sal_op_new(Sal *sal){$/;"	f
+sal_op_release	sal_eXosip2.c	/^void sal_op_release(SalOp *op){$/;"	f
+sal_ping	sal_eXosip2.c	/^int sal_ping(SalOp *op, const char *from, const char *to){$/;"	f
+sal_register	sal_eXosip2.c	/^int sal_register(SalOp *h, const char *proxy, const char *from, int expires){$/;"	f
+sal_remove_call	sal_eXosip2.c	/^static void sal_remove_call(Sal *sal, SalOp *op){$/;"	f	file:
+sal_remove_other	sal_eXosip2.c	/^static void sal_remove_other(Sal *sal, SalOp *op){$/;"	f	file:
+sal_remove_pending_auth	sal_eXosip2.c	/^static void sal_remove_pending_auth(Sal *sal, SalOp *op){$/;"	f	file:
+sal_remove_register	sal_eXosip2.c	/^static void sal_remove_register(Sal *sal, int rid){$/;"	f	file:
+sal_set_callbacks	sal_eXosip2.c	/^void sal_set_callbacks(Sal *ctx, const SalCallbacks *cbs){$/;"	f
+sal_set_keepalive_period	sal_eXosip2.c	/^void sal_set_keepalive_period(Sal *ctx,unsigned int value) {$/;"	f
+sal_set_user_agent	sal_eXosip2.c	/^void sal_set_user_agent(Sal *ctx, const char *user_agent){$/;"	f
+sal_set_user_pointer	sal_eXosip2.c	/^void sal_set_user_pointer(Sal *sal, void *user_data){$/;"	f
+sal_uninit	sal_eXosip2.c	/^void sal_uninit(Sal* sal){$/;"	f
+sal_unlisten_ports	sal_eXosip2.c	/^int sal_unlisten_ports(Sal *ctx){$/;"	f
+sal_unregister	sal_eXosip2.c	/^int sal_unregister(SalOp *h){$/;"	f
+sal_use_double_registrations	sal_eXosip2.c	/^void sal_use_double_registrations(Sal *ctx, bool_t enabled){$/;"	f
+sal_use_one_matching_codec_policy	sal_eXosip2.c	/^void sal_use_one_matching_codec_policy(Sal *ctx, bool_t one_matching_codec){$/;"	f
+sal_use_session_timers	sal_eXosip2.c	/^void sal_use_session_timers(Sal *ctx, int expires){$/;"	f
+sdp_message_a_attr_value_get	sal_eXosip2_sdp.c	/^static const char *sdp_message_a_attr_value_get(sdp_message_t *sdp,int pos,const char *field)$/;"	f	file:
+sdp_message_a_attr_value_get_with_pt	sal_eXosip2_sdp.c	/^static const char *sdp_message_a_attr_value_get_with_pt(sdp_message_t *sdp,int pos,int pt,const char *field)$/;"	f	file:
+sdp_process	sal_eXosip2.c	/^static void sdp_process(SalOp *h){$/;"	f	file:
+sdp_to_media_description	sal_eXosip2_sdp.c	/^int sdp_to_media_description(sdp_message_t *msg, SalMediaDescription *desc){$/;"	f
+set_network_origin	sal_eXosip2.c	/^static void set_network_origin(SalOp *op, osip_message_t *req){$/;"	f	file:
+set_remote_ua	sal_eXosip2.c	/^static void set_remote_ua(SalOp* op, osip_message_t *req){$/;"	f	file:
+set_replaces	sal_eXosip2.c	/^static void set_replaces(SalOp *op, osip_message_t *req){$/;"	f	file:
+set_sdp	sal_eXosip2.c	/^static void set_sdp(osip_message_t *sip,sdp_message_t *msg){$/;"	f	file:
+set_sdp_from_desc	sal_eXosip2.c	/^static void set_sdp_from_desc(osip_message_t *sip, const SalMediaDescription *desc){$/;"	f	file:
+sound_init	rtprecv.c	/^int sound_init(int format)$/;"	f
+soundread	send.c	/^    MSFilter *soundread;$/;"	m	struct:mstream	file:
+soundread	sendrecv.c	/^    MSFilter *soundread;$/;"	m	struct:mstream	file:
+soundwrite	recv.c	/^    MSFilter *soundwrite;$/;"	m	struct:mstream	file:
+soundwrite	sendrecv.c	/^    MSFilter *soundwrite;$/;"	m	struct:mstream	file:
+ssrc_cb	rtprecv.c	/^void ssrc_cb(RtpSession *session)$/;"	f
+stop_handler	rtprecv.c	/^void stop_handler(int signum)$/;"	f
+stophandler	rtpsend.c	/^void stophandler(int signum)$/;"	f
+table	HC-256/mscrypt.c	/^    uint32_t *table;$/;"	m	struct:DecState	file:
+table	HC-256/mscrypt.c	/^    uint32_t *table;$/;"	m	struct:EncState	file:
+table	mscrypt.c	/^    uint32_t *table;$/;"	m	struct:DecState	file:
+table	mscrypt.c	/^    uint32_t *table;$/;"	m	struct:EncState	file:
+text_received	sal_eXosip2.c	/^static void text_received(Sal *sal, eXosip_event_t *ev){$/;"	f	file:
+ticker	recv.c	/^    MSTicker *ticker;$/;"	m	struct:mstream	file:
+ticker	send.c	/^    MSTicker *ticker;$/;"	m	struct:mstream	file:
+ticker	sendrecv.c	/^    MSTicker *ticker;$/;"	m	struct:mstream	file:
+type	HC-256/mscrypt.c	/^    FrameType type;$/;"	m	struct:FrameHeader	file:
+type	HC-256/mscrypt_mod.c	/^    FrameType type;$/;"	m	struct:FrameHeader	file:
+type	mscrypt.c	/^    FrameType type;$/;"	m	struct:FrameHeader	file:
+type	mscrypt_mod.c	/^    FrameType type;$/;"	m	struct:FrameHeader	file:
+unimplemented_stub	sal_eXosip2.c	/^static void unimplemented_stub(){$/;"	f	file:
+update_contact_from_response	sal_eXosip2.c	/^static void update_contact_from_response(SalOp *op, osip_message_t *response){$/;"	f	file:
